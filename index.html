@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Key Detection</title>
+   
+    <link rel="icon" href="https://fav.farm/🔥" />
+  </head>
+  <body>
+    <script>
+      const entered = [];
+      const specialcode = "sabin";
+      window.addEventListener("keyup", (e) => {
+        entered.push(e.key);
+        entered.splice(-specialcode.length - 1, entered.length - specialcode.length);
+        if (entered.join("").includes(specialcode || specialcod2)) {
+          cornify_add();
+        }
+      });
+    </script>
+  </body>
+</html>
